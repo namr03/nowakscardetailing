@@ -66,6 +66,7 @@ footer.dol {
   align-items:center;
 }
 a {
+  font-size: 20px;
   text-decoration: none;
   color: #74a4e4;
   transition: color 0.2s;
