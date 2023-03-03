@@ -1,0 +1,142 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+html,
+body {
+  width: 100%;
+  height: 100%;
+  font-family: Raleway;
+}
+.logo {
+  width: 20%;
+  background-color: white;
+  float: right;
+}
+.menu {
+  width: 80%;
+  background-color: white;
+  float: left;
+}
+.logo,
+.menu {
+  height: 70px;
+  position: sticky;
+  top: 0;
+}
+.container {
+  padding-top: 20px;
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 2000px;
+  flex-direction: column;}
+.container-contact {
+    background-color: white;
+    display: flex;
+    width: 100%;
+    height: 500px;
+    flex-direction: column;
+}
+.container-about {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  height: 1000px;
+  flex-direction: column;
+}
+footer.dol {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(51, 210, 192);
+
+}
+.navigation {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content:space-around;
+  align-items:center;
+}
+a {
+  text-decoration: none;
+  color: #74a4e4;
+  transition: color 0.2s;
+}
+a:hover{
+  color: black;
+}
+
+#log{
+  height: 100%;
+}
+.cennik1,.cennik2
+{
+  height: 50%;
+  width: 100%;
+  clear: both;
+}
+#cen1,#cen2{
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+#zdj{
+  height: 60%;
+}
+.fa {
+  padding: 20px;
+  font-size: 40px;
+  width: 20px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  background-color: #3b5998;
+  color: white;
+}
+.fa-instagram {
+  background: #d6249f;
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+  color: rgb(255, 255, 255);
+}
+#stopka{
+  width: 100%;
+  height: 70px;
+  background-color: rgb(51, 210, 192);
+}
+#social{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: row;
+    clear: both;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(51, 210, 192);
+    gap: 20px;
+}
+table,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  text-align: center;
+}
+table{
+  font-size: 20px;
+  margin-top: 40px;
+  margin-bottom: auto;
+  align-self: center;
+  width: 600px;
+  height: 800px;
+}
+td{
+  height:120px;
+}
